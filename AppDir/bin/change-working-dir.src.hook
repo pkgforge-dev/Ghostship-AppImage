@@ -1,3 +1,12 @@
+#!/bin/false
+
 dir=${XDG_CONFIG_HOME:-~/.local}/share/sm64
 mkdir -p "$dir"
 cd "$dir"
+
+for f in ghostship.o2r config.yml gamecontrollerdb.txt; do
+	f="$APPDIR"/bin/"$f" 
+	if [ -f "$f" ]; then
+		cp -f "$f" ./
+	fi
+done
