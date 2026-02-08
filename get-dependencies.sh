@@ -12,6 +12,7 @@ pacman -Syu --noconfirm \
     libzip        \
     ninja         \
     nlohmann-json \
+    sdl2          \
     spdlog        \
     tinyxml2
 
