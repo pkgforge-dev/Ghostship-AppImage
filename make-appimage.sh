@@ -19,7 +19,7 @@ export DEPLOY_OPENGL=1
 #mv /opt/ghostship/config.yml ./AppDir/bin
 #mv /opt/ghostship/gamecontrollerdb.txt ./AppDir/bin
 #quick-sharun /usr/bin/Ghostship /usr/bin/zenity
-quick-sharun ./AppDir/bin/*
+quick-sharun ./AppDir/bin/Ghostship ./AppDir/bin/*
 
 # Additional changes can be done in between here
 
