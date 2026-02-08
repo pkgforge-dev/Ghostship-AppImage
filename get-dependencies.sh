@@ -6,7 +6,14 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm tinyxml2
+pacman -Syu --noconfirm \
+    cmake         \
+    fmt           \
+    libzip        \
+    ninja         \
+    nlohmann-json \
+    spdlog        \
+    tinyxml2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
